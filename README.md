@@ -1,6 +1,6 @@
 # R.I.P. Twitter
 
-It's not dead, it's resting.
+It's not dead, it's resting
 
 ![screenshot](./screenshot.jpg)
 
