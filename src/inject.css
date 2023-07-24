@@ -1,0 +1,11 @@
+#placeholder svg *,
+[data-testid='TopNavBar'] svg *,
+h1 a[href='/home'] svg * {
+  display: none;
+}
+#placeholder svg,
+[data-testid='TopNavBar'] svg,
+h1 a[href='/home'] svg {
+  background: url('chrome-extension://__MSG_@@extension_id__/icons/logo.svg')
+    no-repeat 50% 50%;
+}
