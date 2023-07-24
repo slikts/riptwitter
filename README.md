@@ -1,10 +1,8 @@
 # R.I.P. Twitter
 
-_It's not dead, it's resting_
+It's not dead, it's resting.
 
 ![screenshot](./screenshot.jpg)
-
-Adds back the bird logo.
 
 https://github.com/slikts/riptwitter/assets/137872/15efdd89-7da5-4f58-a25f-7afdf53405af
 
