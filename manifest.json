@@ -1,8 +1,8 @@
 {
-  "name": "R.I.P. Twitter",
+  "name": "It's not dead, it's resting",
   "version": "1.0.0",
   "manifest_version": 3,
-  "description": "It's not dead, it's resting",
+  "description": "Replaces the 𝕏 logo in twitter.com with a bird",
   "homepage_url": "https://github.com/slikts/riptwitter",
   "icons": {
     "16": "icons/icon16.png",
