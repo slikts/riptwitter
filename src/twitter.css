@@ -6,6 +6,6 @@ h1 a[href='/home'] svg * {
 #placeholder svg,
 [data-testid='TopNavBar'] svg,
 h1 a[href='/home'] svg {
-  background: url('chrome-extension://__MSG_@@extension_id__/icons/logo.svg')
+  background: url('chrome-extension://__MSG_@@extension_id__/icons/twitter.svg')
     no-repeat 50% 50%;
 }

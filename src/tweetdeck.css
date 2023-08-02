@@ -1,0 +1,7 @@
+[aria-label='Loading…'] svg * {
+  display: none;
+}
+[aria-label='Loading…'] svg {
+  background: url('chrome-extension://__MSG_@@extension_id__/icons/tweetdeck.svg')
+    no-repeat 50% 50%;
+}
