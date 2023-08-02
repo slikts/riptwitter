@@ -9,7 +9,8 @@
     "@semantic-release/release-notes-generator": "^11.0.4",
     "nanobundle": "^1.6.0",
     "prettier": "2.8.8",
-    "semantic-release": "^21.0.7"
+    "semantic-release": "^21.0.7",
+    "semantic-release-chrome": "^3.2.0"
   },
   "scripts": {
     "build": "nanobundle build"
