@@ -13,5 +13,12 @@
   "files": [
     "src",
     "icons"
-  ]
+  ],
+  "homepage": "https://github.com/slikts/riptwitter#readme",
+  "bugs": {
+    "url": "https://github.com/slikts/riptwitter/issues"
+  },
+  "license": "ISC",
+  "author": "slikts <dabas@untu.ms>",
+  "repository": "github:slikts/riptwitter"
 }
