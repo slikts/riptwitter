@@ -22,7 +22,7 @@ https://github.com/slikts/riptwitter/assets/137872/15efdd89-7da5-4f58-a25f-7afdf
 
 ### Chrome Web Store
 
-Pending review.
+**[Install extension](https://chrome.google.com/webstore/detail/its-not-dead-its-resting/abnjpdhhoenohiapacohdimllndhfpah)**
 
 ### Manual
 
