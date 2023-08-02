@@ -16,6 +16,8 @@ jobs:
       - uses: ./.github/actions/setup
 
       - name: Release
-        run: yarn semantic-release
+        run: |
+          yarn build
+          yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

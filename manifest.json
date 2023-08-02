@@ -15,7 +15,7 @@
         "https://twitter.com/*"
       ],
       "js": [
-        "src/twitter.js"
+        "lib/twitter.js"
       ],
       "css": [
         "src/twitter.css"
@@ -27,7 +27,7 @@
         "https://tweetdeck.twitter.com/*"
       ],
       "js": [
-        "src/tweetdeck.js"
+        "lib/tweetdeck.js"
       ],
       "css": [
         "src/tweetdeck.css"
@@ -38,8 +38,7 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "icons/*",
-        "src/*"
+        "icons/*"
       ],
       "matches": [
         "<all_urls>"

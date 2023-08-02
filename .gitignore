@@ -1,5 +1,4 @@
-*.zip
-.env
+lib
 .yarn/*
 !.yarn/cache
 !.yarn/patches

@@ -7,12 +7,25 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^9.0.4",
     "@semantic-release/release-notes-generator": "^11.0.4",
+    "nanobundle": "^1.6.0",
     "prettier": "2.8.8",
     "semantic-release": "^21.0.7"
   },
+  "scripts": {
+    "build": "nanobundle build"
+  },
+  "exports": {
+    "./twitter": {
+      "browser": "./lib/twitter.js"
+    },
+    "./tweetdeck": {
+      "browser": "./lib/tweetdeck.js"
+    }
+  },
   "files": [
-    "src",
-    "icons"
+    "lib",
+    "icons",
+    "src/*.css"
   ],
   "homepage": "https://github.com/slikts/riptwitter#readme",
   "bugs": {
