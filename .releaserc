@@ -3,9 +3,25 @@ branches:
   - name: next
     prerelease: true
 debug: true
-# ci: true
 dryRun: false
 plugins:
   - '@semantic-release/commit-analyzer'
   - '@semantic-release/release-notes-generator'
+  - '@semantic-release/changelog'
+  - '@semantic-release/git'
   - '@semantic-release/github'
+analyzeCommits:
+  - path: "@semantic-release/commit-analyzer"
+generateNotes:
+  - path: "@semantic-release/release-notes-generator"
+prepare:
+  - path: "@semantic-release/changelog"
+    changelogFile: "CHANGELOG.md"
+  - path: "@semantic-release/git"
+    assets: "CHANGELOG.md"
+publish:
+  - path: "@semantic-release/github"
+success:
+  - "@semantic-release/github"
+fail:
+  - "@semantic-release/github"
