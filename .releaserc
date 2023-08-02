@@ -5,11 +5,11 @@ branches:
 debug: true
 dryRun: false
 plugins:
-  - '@semantic-release/commit-analyzer'
-  - '@semantic-release/release-notes-generator'
-  - '@semantic-release/changelog'
-  - '@semantic-release/git'
-  - '@semantic-release/github'
+  - "@semantic-release/commit-analyzer"
+  - "@semantic-release/release-notes-generator"
+  - "@semantic-release/changelog"
+  - "@semantic-release/git"
+  - "@semantic-release/github"
 analyzeCommits:
   - path: "@semantic-release/commit-analyzer"
 generateNotes:
@@ -21,6 +21,7 @@ prepare:
     assets: "CHANGELOG.md"
 publish:
   - path: "@semantic-release/github"
+    assets: ["riptwitter.zip"]
 success:
   - "@semantic-release/github"
 fail:

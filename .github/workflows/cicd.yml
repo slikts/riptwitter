@@ -18,6 +18,7 @@ jobs:
       - name: Release
         run: |
           yarn build
+          ./scripts/package.sh
           yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
