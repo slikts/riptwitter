@@ -1,11 +1,13 @@
+svg[aria-label="Twitter"] *,
 #placeholder svg *,
-[data-testid='TopNavBar'] svg *,
-h1 a[href='/home'] svg * {
+[data-testid="TopNavBar"] svg *,
+h1 a[href="/home"] svg * {
   display: none;
 }
+svg[aria-label="Twitter"],
 #placeholder svg,
-[data-testid='TopNavBar'] svg,
-h1 a[href='/home'] svg {
-  background: url('chrome-extension://__MSG_@@extension_id__/icons/twitter.svg')
+[data-testid="TopNavBar"] svg,
+h1 a[href="/home"] svg {
+  background: url("chrome-extension://__MSG_@@extension_id__/icons/twitter.svg")
     no-repeat 50% 50%;
 }
