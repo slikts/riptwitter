@@ -1,6 +1,6 @@
-const { updateFavicon, updateTitle } = require('./utils')
+const { updateFavicon, updateTitle } = require("./utils");
 
 chrome.runtime.sendMessage({}, async () => {
-  updateFavicon('icons/tweetdeck.svg')
-  updateTitle(/\bXPro$/, 'TweetDeck')
-})
+  updateFavicon("icons/tweetdeck.svg");
+  updateTitle(/\bXPro$/, "TweetDeck");
+});
