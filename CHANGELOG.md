@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/slikts/riptwitter/compare/v1.1.0...v1.2.0) (2023-08-04)
+
+
+### Features
+
+* replace login screen logo ([25e66e0](https://github.com/slikts/riptwitter/commit/25e66e0275110f8c2b7230521dba1adb2f81fd96))
+
 # [1.1.0](https://github.com/slikts/riptwitter/compare/v1.0.0...v1.1.0) (2023-08-02)
 
 
